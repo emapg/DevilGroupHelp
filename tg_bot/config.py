@@ -12,14 +12,14 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "--"
-    OWNER_ID = "Ha Ha"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "Devil"
+    API_KEY = "6372570235:AAG-M07aJQblGQMYlE873-uy493XZqzqzCw"
+    OWNER_ID = "5556908572"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "HQOWNER"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
-    MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
-    GBAN_LOGS = -1001303171265 #Channel ID here with -
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres.kbgeqqezvwoqafbkjkdc:Hasan@#4455@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres'  # needed for any database modules
+    MESSAGE_DUMP = -1001786848035  # needed to make sure 'save from' messages persist
+    GBAN_LOGS = -1001786848035 #Channel ID here with -
     LOAD = []
     NO_LOAD = ['translation', 'rss']   
     WEBHOOK = False
@@ -39,10 +39,10 @@ class Config(object):
     WORKERS = 8  # Number of subthreads to use. Set as number of threads your processor uses
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'  # banhammer marie sticker
     ALLOW_EXCL = False  # Allow ! commands as well as /
-    CASH_API_KEY = None # Get one from https://www.alphavantage.co/support/#api-key
-    TIME_API_KEY = None # Get one from https://timezonedb.com/register
-    API_OPENWEATHER = False #Get API_OPENWEATHER FROM OFFICAL SITE https://da.gd/VAW3
-    AI_API_KEY = None # Coffeehouse chatbot api key, get one from https://coffeehouse.intellivoid.info/
+    CASH_API_KEY = 'TVPKHG9UHWGO1OQO' # Get one from https://www.alphavantage.co/support/#api-key
+    TIME_API_KEY = 'K2XY2WLELD8R' # Get one from https://timezonedb.com/register
+    API_OPENWEATHER = '4b15a4de360fb4e011c280d378630a67' #Get API_OPENWEATHER FROM OFFICAL SITE https://da.gd/VAW3
+    AI_API_KEY = 'sk-rM9pn3Vlw3VADSLxQO46Bjyy39rBgXWSsYm67OxaMeT3BlbkFJP9CtYsVIZ7WHw4yo9OoQlT8OKcWq_X0IQGJUSlqUoA' # Coffeehouse chatbot api key, get one from https://coffeehouse.intellivoid.info/
     WALL_API = None # Get one from https://wall.alphacoders.com/api.php
 
 
